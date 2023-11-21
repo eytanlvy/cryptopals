@@ -5,7 +5,7 @@ mod test {
 
     #[test]
     fn test_c04() {
-		let path = Path::new("src/c04.txt");
+		let path = Path::new("tests/c04.txt");
         let (_key, _res) = detect_sc_xor(&path);
         assert_eq!(_key, 53);
     }
