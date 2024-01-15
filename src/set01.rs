@@ -87,3 +87,11 @@ pub fn score(x: &[u8]) -> i32 {
 	}
 	return score;
 }
+
+pub fn repeating_key_xor(plaintext: &[u8], key: &[u8]) -> Vec<u8> { //to test
+	let mut res = Vec::new();
+	for i in 0..plaintext.len() {
+		res.push(plaintext[i] ^ key[i % key.len()]);
+	}
+	return res;
+}
