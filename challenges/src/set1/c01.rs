@@ -1,6 +1,6 @@
 #[cfg(test)]
 mod tests {
-    use cryptopals::set01::{encode_base64,hex_to_bytes};
+    use serialize::{encode_base64,hex_to_bytes};
 
     #[test]
     fn test_c01() {

@@ -1,6 +1,6 @@
 #[cfg(test)]
 mod tests {
-	use cryptopals::set01::repeating_key_xor;
+	use xor::repeating_key_xor;
     #[test]
 	fn test_c05() {
 		let plaintext = b"Burning 'em, if you ain't quick and nimble\nI go crazy when I hear a cymbal";

@@ -1,6 +1,7 @@
 #[cfg(test)]
 mod tests {
-	use cryptopals::set01::{hamming_distance, find_repeating_key, transpose_blocks,find_keysize, decode_base64, decrypt_repeating_key_xor, bytes_to_string};
+	use serialize::{decode_base64};
+	use xor::{hamming_distance, find_repeating_key, transpose_blocks,find_keysize, decrypt_repeating_key_xor};
 	use std::path::Path;
 	use std::fs;
 

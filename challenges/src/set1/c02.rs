@@ -1,6 +1,7 @@
 #[cfg(test)]
 mod tests {
-    use cryptopals::set01::{hex_to_bytes, bytes_to_hex, xor};
+    use serialize::{hex_to_bytes, bytes_to_hex};
+    use xor::xor;
 
     #[test]
     fn test_c02() {

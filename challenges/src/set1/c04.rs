@@ -1,6 +1,6 @@
 #[cfg(test)]
 mod tests {
-    use cryptopals::set01::detect_sc_xor;
+    use xor::detect_sc_xor;
 	use std::path::Path;
 
     #[test]

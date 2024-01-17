@@ -1,0 +1,18 @@
+[package]
+name = "challenges"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "challenges"
+path = "src/lib.rs"
+
+[dependencies]
+hex = "0.4.3"
+base64 = "0.13.0"
+
+[dependencies.serialize]
+path = "../serialize"
+
+[dependencies.xor]
+path = "../xor"
