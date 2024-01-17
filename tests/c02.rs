@@ -1,6 +1,6 @@
 #[cfg(test)]
-mod test {
-    use crate::set01::{hex_to_bytes, bytes_to_hex, xor};
+mod tests {
+    use cryptopals::set01::{hex_to_bytes, bytes_to_hex, xor};
 
     #[test]
     fn test_c02() {

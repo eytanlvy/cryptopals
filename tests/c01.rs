@@ -1,6 +1,6 @@
 #[cfg(test)]
-mod test {
-    use crate::set01::{encode_base64,hex_to_bytes};
+mod tests {
+    use cryptopals::set01::{encode_base64,hex_to_bytes};
 
     #[test]
     fn test_c01() {
